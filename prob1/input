@@ -1,0 +1,18 @@
+@addPages pageOne pageTwo pageThree
+@addLinks
+@addLinks pageOne pageTwo
+@addLinks pageOne DOESNOTEXIST
+@addPages pageFour
+@addPages
+@addLinks pageTwo
+@addLinks NOTHERE
+@addLinks pageTwo pageOne pageFour pageFour pageFour pageFour
+@addLinks pageOne pageTwo
+@isConnected
+@isConnected pageOne
+@isConnected pageOne nothere
+@isConnected NOThere AlSoNoThErE
+@isConnected notHERE pageOne
+@isConnected pageOne pageOne
+@isConnected pageOne pageTwo
+@isConnected pageTwo pageThree

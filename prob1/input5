@@ -1,0 +1,6 @@
+@addPages one two three four
+@isConnected
+@isConnected one
+@is Connected
+@isConnected one two three four
+@isConnected iiiiiiiiii

@@ -1,0 +1,6 @@
+@addPages one two three
+@addLinks one two
+@addLinks one two
+@addLinks one three
+@isConnected one two
+@isConnected one three
